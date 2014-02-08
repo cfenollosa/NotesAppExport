@@ -9,7 +9,7 @@ The script handles Unicode reasonably well, but I recommend not to use path deli
 
 
 Instructions
-============
+------------
 
 1. Download the script
 2. Edit the variable `rootPath`
