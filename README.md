@@ -1,11 +1,9 @@
-NotesAppBackups
-===============
+NotesAppExport
+==============
 
-Since Apple doesn't provide a convenient way to backup notes from Notes.app, I wrote this AppleScript to automate the process.
+Since Apple doesn't provide a convenient way to export notes from Notes.app, I wrote this AppleScript to automate the process.
 
-It saves each note as an html file, which incidentally is the native format. The notes are organized in the same folders as in Notes.app, with the title as the filename. 
-
-The script handles Unicode reasonably well, but I recommend not to use path delimiters in titles (`:` and `/`)
+It saves each note as `folder_name/note_title.html`, as HTML is the native format. Unicode titles work, but I'd recommend not to use path delimiters in titles to avoid problems (`:` and `/`)
 
 
 Instructions
@@ -15,4 +13,4 @@ Instructions
 2. Edit the variable `rootPath`
 3. Run!
 
-You can optionally export it as an application using the AppleScript editor.
+You can optionally export the script as an application using the AppleScript editor, and make it run with a hotkey, with cron, etc.
