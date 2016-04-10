@@ -1,5 +1,5 @@
 set allNotes to ""
-set rootPath to "/Users/cfenollosa/Documents/Backups/Notes/"
+set rootPath to "/tmp/backup_notes/"
 
 tell application "Notes"
 	repeat with f in folders
